@@ -139,7 +139,7 @@ func TestClaimsSelector(t *testing.T) {
 	})
 
 	var tests = []testCase{
-		{"unatuhenticated", context.Background(), "unauthenticated"},
+		{"unauthenticated", context.Background(), "unauthenticated"},
 		{"default", oidc.NewContext(context.Background(), map[string]interface{}{oidc.OcisRoutingPolicy: ""}), "default"},
 		{"claim-value", oidc.NewContext(context.Background(), map[string]interface{}{oidc.OcisRoutingPolicy: "ocis.routing.policy-value"}), "ocis.routing.policy-value"},
 	}
