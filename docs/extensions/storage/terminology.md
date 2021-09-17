@@ -85,7 +85,7 @@ Another aspect for the `file id` / `uuid` is that it must be a logical identifie
 
 Technically, this means that every storage driver needs to have a map of a `uuid` to in internal resource identifier. This internal resource identifier can be
 - an eos fileid, because eos can look up files by id
-- an inode if the filesystem and the storage driver support lookung up by inode
+- an inode if the filesystem and the storage driver support looking up by inode
 - a path if the storage driver has no way of looking up files by id.
   - In this case other mechanisms like inotify, kernel audit or a fuse overlay might be used to keep the paths up to date.
   - to prevent excessive writes when deep folders are renamed a reverse map might be used: it will map the `uuid` to `<parentuuid>:<childname>`, allowing to trade writes for reads
