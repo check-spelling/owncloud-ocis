@@ -432,7 +432,7 @@ Migrate share data to _yet to determine_ share manager backend and shut down own
 The ownCloud 10 database still holds share information in the `oc_share` and `oc_share_external` tables. They are used to efficiently answer queries about who shared what with whom. In oCIS shares are persisted using a share manager and if desired these grants are also sent to the storage provider so it can set ACLs if possible. Only one system should be responsible for the shares, which in case of treating the storage as the primary source effectively turns the share manager into a cache.
 
 #### User impact
-Depending on chosen the share manager provider some sharing requests should be faster: listing incoming and outgoing shares is no longer bound to the ownCloud 10 database but to whatever technology is used by the share provdier:
+Depending on chosen the share manager provider some sharing requests should be faster: listing incoming and outgoing shares is no longer bound to the ownCloud 10 database but to whatever technology is used by the share provider:
   - For non HA scenarios they can be served from memory, backed by a simple json file.
   - TODO: implement share manager with redis / nats / ... key value store backend: use the micro store interface please ...
 
