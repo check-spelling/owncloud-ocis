@@ -840,7 +840,7 @@ The following sections list the changes for 1.4.0.
 
 * Enhancement - Clarify expected failures: [#1790](https://github.com/owncloud/ocis/pull/1790)
 
-   Some features, while covered by the ownCloud 10 acceptance tests, will not be implmented for
+   Some features, while covered by the ownCloud 10 acceptance tests, will not be implemented for
    now: - blacklisted / ignored files, because ocis does not need to blacklist `.htaccess` files -
    `OC-LazyOps` support was [removed from the
    clients](https://github.com/owncloud/client/pull/8398). We are thinking about [a state
