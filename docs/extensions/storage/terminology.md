@@ -83,7 +83,7 @@ iOS clients can only queue single requests to be executed in the background. The
 
 Another aspect for the `file id` / `uuid` is that it must be a logical identifier that can be set, at least by internal systems. Without a writeable fileid we cannot restore backups or migrate storage spaces from one storage provider to another storage provider.
 
-Technically, this means that every storage driler needs to have a map of a `uuid` to in internal resource identifier. This internal resource identifier can be
+Technically, this means that every storage driver needs to have a map of a `uuid` to in internal resource identifier. This internal resource identifier can be
 - an eos fileid, because eos can look up files by id
 - an inode if the filesystem and the storage driver support lookung up by inode
 - a path if the storage driver has no way of looking up files by id.
