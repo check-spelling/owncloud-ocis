@@ -322,7 +322,7 @@ _TODO @butonic update performance comparisons nightly_
 
 #### Steps
 There are several options to move users to the oCIS backend:
-- Use a canary app to let users decide thamselves
+- Use a canary app to let users decide themselves
 - Use an early adopters group with an opt in
 - Force migrate users in batch or one by one at the administrators will
 
@@ -333,7 +333,7 @@ The same verification steps as for the internal testing stage apply. Just from t
 Until now, the oCIS configuration mimics ownCloud 10 and uses the old data directory layout and the ownCloud 10 database. Users can seamlessly be switched from ownCloud 10 to oCIS and back again.
 <div class="editpage">
 
-_TODO @butonic we need a canary app that allows users to decide for themself which backend to use_
+_TODO @butonic we need a canary app that allows users to decide for themselves which backend to use_
 
 </div>
 

@@ -625,7 +625,7 @@ func (s Service) UpdateAccount(ctx context.Context, in *proto.UpdateAccountReque
 	return
 }
 
-// whitelist of all paths/fields which can be updated by users themself
+// whitelist of all paths/fields which can be updated by users themselves
 var selfUpdatableAccountPaths = map[string]struct{}{
 	"DisplayName":              {},
 	"Description":              {},
