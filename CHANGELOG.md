@@ -3088,7 +3088,7 @@ The following sections list the changes for 1.0.0.
   * Enhancement - Update reva to v0.0.2-0.20200212114015-0dbce24f7e8b: [#91](https://github.com/owncloud/ocis-reva/pull/91)
 
    Reva has seen a lot of changes that allow us to - reduce the configuration overhead - use the
-   autocreato home folder option - use the home folder path layout option - no longer start the root
+   autocreate home folder option - use the home folder path layout option - no longer start the root
    storage
 
    Https://github.com/owncloud/ocis-reva/pull/91 related:
