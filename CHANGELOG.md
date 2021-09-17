@@ -3017,7 +3017,7 @@ The following sections list the changes for 1.0.0.
 
    Currently, cross storage etag propagation is not yet implemented, which prevents the desktop
    client from detecting changes via the PROPFIND to /. / is managed by the root storage provider
-   which is independend of the home and oc storage providers. If a file changes in /home/foo, the
+   which is independent of the home and oc storage providers. If a file changes in /home/foo, the
    etag change will only be propagated to the root of the home storage provider.
 
    This change jails users into the `/home` namespace, and allows configuring the namespace to
