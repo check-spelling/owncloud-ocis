@@ -247,7 +247,7 @@ message DeleteAccountRequest {
     string id = 1;
 }
 
-// Account follows the properties of the ms graph api user resuorce.
+// Account follows the properties of the ms graph api user resource.
 // See https://docs.microsoft.com/en-us/graph/api/resources/user?view=graph-rest-1.0#properties
 message Account {
 
