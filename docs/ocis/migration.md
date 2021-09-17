@@ -323,7 +323,7 @@ _TODO @butonic update performance comparisons nightly_
 #### Steps
 There are several options to move users to the oCIS backend:
 - Use a canary app to let users decide thamselves
-- Use an early adoptors group with an opt in
+- Use an early adopters group with an opt in
 - Force migrate users in batch or one by one at the administrators will
 
 #### Verification
@@ -473,7 +473,7 @@ _TODO for storage provider as source of truth persist ALL share data in the stor
 </div>
 
 #### Verification
-After copying all metadata start a dedicated gateway and change the configuration to use the new share manager. Route a test user, a test group and early adoptors to the new gateway. When no problems occur you can start the desired number of share managers and roll out the change to all gateways.
+After copying all metadata start a dedicated gateway and change the configuration to use the new share manager. Route a test user, a test group and early adopters to the new gateway. When no problems occur you can start the desired number of share managers and roll out the change to all gateways.
 
 <div class="editpage">
 
