@@ -89,7 +89,7 @@ func (h ocisHandler) Bind(bindDN, bindSimplePw string, conn net.Conn) (ldap.LDAP
 	res, err := h.as.ListAccounts(ctx, &accounts.ListAccountsRequest{
 		//Query: fmt.Sprintf("username eq '%s'", username),
 		// TODO this allows looking up users when you know the username using basic auth
-		// adding the password to the query is an option but sending this over the wira a la scim seems ugly
+		// adding the password to the query is an option but sending this over the wire a la scim seems ugly
 		// but to set passwords our accounts need it anyway
 		Query: fmt.Sprintf("login eq '%s' and password eq '%s'", userName, bindSimplePw),
 	})
