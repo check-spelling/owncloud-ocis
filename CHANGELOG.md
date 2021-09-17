@@ -1044,7 +1044,7 @@ The following sections list the changes for 1.3.0.
 * Bugfix - Add missing gateway config: [#1716](https://github.com/owncloud/ocis/pull/1716)
 
    The auth provider `ldap` and `oidc` drivers now need to be able talk to the reva gateway. We added
-   the `gatewayscv` to the config that is passed to reva.
+   the `gatewaysvc` to the config that is passed to reva.
 
    https://github.com/owncloud/ocis/pull/1716
 
