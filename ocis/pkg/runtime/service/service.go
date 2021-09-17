@@ -154,7 +154,7 @@ func Start(o ...Option) error {
 			}
 			s.Log.Info().Str("event", e.String()).Msg(fmt.Sprintf("supervisor: %v", e.Map()["supervisor_name"]))
 		},
-		FailureThreshould: 5,
+		FailureThreshold: 5,
 		FailureBackoff:   3 * time.Second,
 	})
 
