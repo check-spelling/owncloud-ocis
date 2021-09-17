@@ -11,12 +11,12 @@ import (
 )
 
 const (
-	_resolutionSeperator = "x"
+	_resolutionSeparator = "x"
 )
 
 // ParseResolution returns an image.Rectangle representing the resolution given as a string
 func ParseResolution(s string) (image.Rectangle, error) {
-	parts := strings.Split(s, _resolutionSeperator)
+	parts := strings.Split(s, _resolutionSeparator)
 	if len(parts) != 2 {
 		return image.Rectangle{}, fmt.Errorf("failed to parse resolution: %s. Expected format <width>x<height>", s)
 	}
