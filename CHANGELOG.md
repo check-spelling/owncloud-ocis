@@ -1133,7 +1133,7 @@ The following sections list the changes for 1.2.0.
 
 * Enhancement - Introduce ADR: [#1042](https://github.com/owncloud/ocis/pull/1042)
 
-   We will keep track of [Architectual Decision Records using
+   We will keep track of [Architectural Decision Records using
    Markdown](https://adr.github.io/madr/) in `/docs/adr`.
 
    https://github.com/owncloud/ocis/pull/1042
