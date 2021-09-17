@@ -648,7 +648,7 @@ The following sections list the changes for 1.7.0.
 
 * Enhancement - Enable the s3ng storage driver: [#1886](https://github.com/owncloud/ocis/pull/1886)
 
-   We made it possible to use the new s3ng storage driver by adding according commandline flags and
+   We made it possible to use the new s3ng storage driver by adding according command-line flags and
    environment variables.
 
    https://github.com/owncloud/ocis/pull/1886
