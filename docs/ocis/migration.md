@@ -568,7 +568,7 @@ The `filecache` table itself has more metadata:
 
 | Field              | Type          | Null | Key | Default | Extra          | Comment        | Migration         |
 |--------------------|---------------|------|-----|---------|----------------|----------------|----------------|
-| `fileid`           | bigint(20)    | NO   | PRI | NULL    | auto_increment |                | MUST become the oCIS `opaqueid` of a file reference. `ocis` driver stores it in extendet attributes and can use numbers as node ids on disk. for eos see note below table |
+| `fileid`           | bigint(20)    | NO   | PRI | NULL    | auto_increment |                | MUST become the oCIS `opaqueid` of a file reference. `ocis` driver stores it in extended attributes and can use numbers as node ids on disk. for eos see note below table |
 | `storage`          | int(11)       | NO   | MUL | 0       |                | *the filecache holds metadata for multiple storages* | corresponds to an oCIS *storage space* |
 | `path`             | varchar(4000) | YES  |     | NULL    |                | *the path relative to the storages root* | MUST become the `path` relative to the storage root. `files` prefix needs to be trimmed. |
 | `path_hash`        | varchar(32)   | NO   |     |         |                | *mysql once had problems indexing long paths, so we stored a hash for lookup by path. | - |
