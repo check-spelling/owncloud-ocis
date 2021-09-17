@@ -3309,7 +3309,7 @@ The following sections list the changes for 1.0.0.
    - Generate random endsession state for external authority - Update dependencies in
    Dockerfile - Set prompt=None to avoid loops with external authority - Update Jenkins
    reporting plugin from checkstyle to recordIssues - Remove extra kty key from JWKS top level
-   document - Fix regression which encodes URL fragments twice - Avoid generating fragmet/query
+   document - Fix regression which encodes URL fragments twice - Avoid generating fragment/query
    URLs with wrong order - Return state for oidc endsession response redirects - Use server
    provided username to avoid case mismatch - Use signed-out-uri if set as fallback for goodbye
    redirect on saml slo - Add checks to ensure post_logout_redirect_uri is not empty - Fix SAML2
