@@ -1057,7 +1057,7 @@ The following sections list the changes for 1.3.0.
    We inverted this dependency and moved the default initialization data (i.e: creating roles,
    permissions, settings bundles) and instead of notifying the settings service that the
    account has to provide with such options, the settings is instead initialized with the options
-   the accounts rely on. Essentially saving bandwith as there is no longer a gRPC call to the
+   the accounts rely on. Essentially saving bandwidth as there is no longer a gRPC call to the
    settings service.
 
    For the `storage-metadata` a retry mechanism was added that retries by default 20 times to
