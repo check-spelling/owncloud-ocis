@@ -411,7 +411,7 @@ The following sections list the changes for 1.9.0.
   * Fix cs3org/reva#1808: Use empty array in OCS Notifications endpoints
   * Fix cs3org/reva#1825: Raise max grpc message size
   * Fix cs3org/reva#1828: Send a proper XML header with error messages
-  * Chg cs3org/reva#1828: Remove the oidc provider in order to upgrad mattn/go-sqlite3 to v1.14.7
+  * Chg cs3org/reva#1828: Remove the oidc provider in order to upgrade mattn/go-sqlite3 to v1.14.7
   * Enh cs3org/reva#1834: Add API key to Mentix GOCDB connector
   * Enh cs3org/reva#1855: Minor optimization in parsing EOS ACLs
   * Enh cs3org/reva#1873: Update the EOS image tag to be for revad-eos image
