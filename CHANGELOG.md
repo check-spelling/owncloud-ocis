@@ -957,7 +957,7 @@ The following sections list the changes for 1.3.0.
 
    For the `storage-metadata` a retry mechanism was added that retries by default 20 times to
    fetch the `com.owncloud.storage.metadata` from the service registry every `500`
-   miliseconds. If this retry expires the accounts panics, as its dependency on the
+   milliseconds. If this retry expires the accounts panics, as its dependency on the
    `storage-metadata` service cannot be resolved.
 
    We also introduced a client wrapper that acts as middleware between a client and a server. For
