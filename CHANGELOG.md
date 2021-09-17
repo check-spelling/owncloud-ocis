@@ -1539,7 +1539,7 @@ The following sections list the changes for 1.0.0.
    Tags: docker
 
    Without setting `REVA_FRONTEND_URL` and `REVA_DATAGATEWAY_URL` uploads would default to
-   locahost and fail if `OCIS_DOMAIN` was used to run ocis on a remote host.
+   localhost and fail if `OCIS_DOMAIN` was used to run ocis on a remote host.
 
    https://github.com/owncloud/ocis/pull/392
 
