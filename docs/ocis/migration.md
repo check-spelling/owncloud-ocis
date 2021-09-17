@@ -430,7 +430,7 @@ _TODO @butonic document how to manually do that until the storage registry can d
 Start with a test user, then move to early adopters and finally migrate all users.
 
 #### Rollback
-To switch the storage provider again the same storage space migration can be performed again: copy medatata and blob data using the CS3 api, then change the responsible storage provider in the storage registry.
+To switch the storage provider again the same storage space migration can be performed again: copy metadata and blob data using the CS3 api, then change the responsible storage provider in the storage registry.
 
 #### Notes
 <div style="break-after: avoid"></div>
