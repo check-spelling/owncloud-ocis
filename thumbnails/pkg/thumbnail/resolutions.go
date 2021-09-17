@@ -78,7 +78,7 @@ func (rs Resolutions) ClosestMatch(requested image.Rectangle, sourceSize image.R
 		}
 
 		// Convert diff to positive value
-		// Multiplying by -1 is safe since we aren't getting postive numbers here
+		// Multiplying by -1 is safe since we aren't getting positive numbers here
 		// because of the check above
 		absDiff := diff * -1
 		if absDiff < minDiff {
