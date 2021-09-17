@@ -119,7 +119,7 @@ _Feel free to add your question as a PR to this document using the link at the t
 
 ### Stage 3: introduce oCIS interally
 
-Befor letting oCIS handle end user requests we will first make it available in the internal network. By subsequently adding services we can add functionality and verify the services work as intended.
+Before letting oCIS handle end user requests we will first make it available in the internal network. By subsequently adding services we can add functionality and verify the services work as intended.
 
 Start oCIS backend and make read only tests on existing data using the `owncloudsql` storage driver which will read (and write)
 - blobs from the same datadirectory layout as in ownCloud 10
