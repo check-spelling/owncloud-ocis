@@ -166,7 +166,7 @@ The following sections list the changes for 1.12.0.
 
 * Enhancement - Update go-chi/chi to version 5.0.3: [#2429](https://github.com/owncloud/ocis/pull/2429)
 
-   Updated go-chi/chi to the lastest release
+   Updated go-chi/chi to the latest release
 
    https://github.com/owncloud/ocis/pull/2429
 
