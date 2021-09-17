@@ -849,7 +849,7 @@ _ocs: api compatibility, return correct status code_
 - [apiShareCreateSpecialToShares1/createShareReceivedInMultipleWays.feature:407](https://github.com/owncloud/core/blob/master/tests/acceptance/features/apiShareCreateSpecialToShares1/createShareReceivedInMultipleWays.feature#L407)
 - [apiShareCreateSpecialToShares1/createShareReceivedInMultipleWays.feature:439](https://github.com/owncloud/core/blob/master/tests/acceptance/features/apiShareCreateSpecialToShares1/createShareReceivedInMultipleWays.feature#L439)
 
-#### [Empy OCS response for a share create request using a disabled user](https://github.com/owncloud/ocis/issues/2212)
+#### [Empty OCS response for a share create request using a disabled user](https://github.com/owncloud/ocis/issues/2212)
 -   [apiShareCreateSpecialToShares2/createShareWithDisabledUser.feature:20](https://github.com/owncloud/core/blob/master/tests/acceptance/features/apiShareCreateSpecialToShares2/createShareWithDisabledUser.feature#L20)
 -   [apiShareCreateSpecialToShares2/createShareWithDisabledUser.feature:23](https://github.com/owncloud/core/blob/master/tests/acceptance/features/apiShareCreateSpecialToShares2/createShareWithDisabledUser.feature#L23)
 
