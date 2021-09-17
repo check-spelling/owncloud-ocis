@@ -366,7 +366,7 @@ The following sections list the changes for 1.10.0.
 
 * Enhancement - Refactor graph API: [#2277](https://github.com/owncloud/ocis/pull/2277)
 
-   We refactored the `/graph/v1.0/` endpoint which now relies on the internal acces token fer
+   We refactored the `/graph/v1.0/` endpoint which now relies on the internal access token fer
    authentication, getting rid of any LDAP or OIDC code to authenticate requests. This allows
    using the graph api when using basic auth or any other auth mechanism provided by the CS3 auth
    providers / reva gateway / ocis proxy.
