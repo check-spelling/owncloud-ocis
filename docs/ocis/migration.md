@@ -139,7 +139,7 @@ None, only administrators will be able to explore oCIS during this stage.
 
 #### Steps and verifications
 
-We are going to run and explore a series of services that will together handle the same requests as ownCloud 10. For initial exploration the oCIS binary is recommended. The services can later be deployed using a single oCIS runtime or in multiple cotainers.
+We are going to run and explore a series of services that will together handle the same requests as ownCloud 10. For initial exploration the oCIS binary is recommended. The services can later be deployed using a single oCIS runtime or in multiple containers.
 
 
 ##### Storage provider for file metadata
