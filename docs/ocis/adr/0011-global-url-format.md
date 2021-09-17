@@ -177,7 +177,7 @@ There is a customized ownCloud instance that uses path only based URLs:
 {{< hint >}}
 * `/#` is used by the current vue router.
 * `/s` denotes that this is a space url.
-* `<space_id>` and `<resource_id>` both consist of `<storage_id>:<node_id>`, but the `space_id` can be replaced with a shorter id or an alias. See furthor down below.
+* `<space_id>` and `<resource_id>` both consist of `<storage_id>:<node_id>`, but the `space_id` can be replaced with a shorter id or an alias. See further down below.
 * `<relative/path>` takes precedence over the `<resource_id>`, both are optional
 {{< /hint >}}
 
